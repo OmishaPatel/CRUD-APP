@@ -1,0 +1,16 @@
+<% for(let i = 0; i < shows.length; i++){%>
+<tr>
+    <td><%= shows[i].name%></td>
+    <td><%= shows[i].source%></td>
+    <td><%= shows[i].season%></td>
+    <td><%= shows[i].status%></td>
+    <td>
+        <a href="/update-show?id=<%= shows[i]._id%>" class="btn border-shadow update">
+            <span class="text-gradient"><i class="fas fa-pencil-alt"></i></span>
+        </a>
+        <a class="btn border-shadow delete" data-id=<%= shows[i]._id%>>
+            <span class="text-gradient"><i class="fas fa-times"></i></span>
+        </a>
+    </td>
+</tr>
+<% } %>
