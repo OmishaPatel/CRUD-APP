@@ -16,10 +16,7 @@ connectDB();
 
 //parse request to body-parser
 app.use(bodyparser.urlencoded({extended:true}))
-//Greeting message
-app.get('/', (req,res)=> {
-    res.send("Welcome to Favorite TV Show API")
-})
+
 //Set View engine
 app.set("view engine","ejs")
 //app.set("views".path.resolve(__dirname, "views/ejs"))
