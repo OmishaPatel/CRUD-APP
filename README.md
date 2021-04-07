@@ -1,6 +1,6 @@
 CRUD_App_Node.js
 
-In this projects user can create their favorite show, update and delete. 
+In this projects user can create their favorite show, update and delete. API was tested with POSTMAN. Deployed to Heroku
 
 Technologies Used:
     -Node.js
@@ -17,3 +17,5 @@ Then Create config.env file. Inside the file create a PORT variable assign a val
 To start this project type
 
 npm start
+
+Website URL : https://crud-tv-app.herokuapp.com/
